@@ -1,4 +1,4 @@
-var viewDir = __dirname+'/../views/'
+var viewDir = __dirname+'/../views/root/'
     , layoutDir = __dirname+'/../views/layouts/'
     , redis = require('redis')
     , client = redis.createClient();
