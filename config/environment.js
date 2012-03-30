@@ -1,4 +1,3 @@
-
 module.exports = function(app, express){
     // Configuration
     app.configure(function(){

@@ -1,7 +1,6 @@
-/**
- * Module dependencies.
- */
-var express = require('express');
+//Module dependencies.
+var express = require('express')
+    , redis = require('redis');
 
 var app = module.exports = express.createServer();
 
