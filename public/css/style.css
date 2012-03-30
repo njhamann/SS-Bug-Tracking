@@ -1,6 +1,43 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
-a {
-  color: #00B7FF; }
+.app-container {
+  padding: 0; }
+
+.sidebar-nav {
+  padding: 9px 0;
+  background: #eee; }
+
+.item {
+  background: #fff; }
+  .item .title {
+    height: 50px;
+    background: #eee; }
+  .item .meta {
+    height: 50px;
+    background: #fff; }
+  .item .item-body {
+    background: #ccc; }
+  .item .assets .asset {
+    float: left;
+    width: 75px;
+    height: 75px;
+    background: #eee;
+    margin: 0 5px 0 0; }
+  .item .viewing {
+    height: 50px; }
+  .item .discussion {
+    background: #ccc; }
+
+.readable {
+  max-width: 800px; }
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -moz-binding: url("ellipsis.xml#ellipsis");
+  display: block; }
