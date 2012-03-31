@@ -41,3 +41,7 @@ body {
   -ms-text-overflow: ellipsis;
   -moz-binding: url("ellipsis.xml#ellipsis");
   display: block; }
+
+.center-fluid-span {
+  margin: 0 auto !important;
+  float: none !important; }

@@ -4,14 +4,14 @@ var viewDir = __dirname+'/../views/root/'
     , client = redis.createClient();
 
 exports.index = function(req, res){
-    res.render(viewDir+'index', {title: 'SS Bug Tracking', layout: layoutDir + 'layout'})
+    res.render(viewDir+'index', {title: 'Tontra', layout: layoutDir + 'layout'})
 };
 exports.signup = function(req, res){
-  res.render(viewDir+'signup', { title: 'SS Bug Tracking' })
+  res.render(viewDir+'signup', { title: 'Tontra', layout: layoutDir + 'layout' })
 };
 exports.signin = function(req, res){
-  res.render(viewDir+'signin', { title: 'SS Bug Tracking' })
+  res.render(viewDir+'signin', { title: 'Tontra', layout: layoutDir + 'layout' })
 };
 exports.edit = function(req, res){
-  res.render(viewDir+'edit', { title: 'SS Bug Tracking' })
+  res.render(viewDir+'edit', { title: 'Tontra', layout: layoutDir + 'layout' })
 };

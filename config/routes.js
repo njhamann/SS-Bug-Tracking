@@ -5,6 +5,8 @@ var routesRoot = require('../routes/root.js')
 
 module.exports = function(app) {
     app.get('/', routesRoot.index);
+    app.get('/signup', routesRoot.signup);
+    app.get('/signin', routesRoot.signin);
     app.get('/user', routesUser.index);
     app.get('/item', routesItem.index);
     app.get('/redis_test', routesRedis.index);
